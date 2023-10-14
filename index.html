@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog and Portfolio of Himaddri</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header starts -->
+    <header id="header">
+        <nav id="navbar">
+            <ul id="nav-items-1">
+                <img src="images/name.png" alt="">
+            </ul>
+            <ul id="nav-items-2">
+                <li><a id="cta" href="index.html">Home</a></li>
+                <li><a id="cta" href="#">About</a></li>
+                <li><a id="cta" href="#">Blogs</a></li>
+                <li><a id="cta" href="#">Contact</a></li>
+                <li><a id="cta" href="#">Projects</a></li>
+            </ul>
+            <ul id="nav-items-3">
+                <button id="darkmodebtn" onclick="darklight()">Dark/Light</button>
+                <button onclick="login()"><a href="Sign/login.html">Login</a></button>
+                <button onclick="signup()"><a href="Sign/sign.html">Sign Up</a></button>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <section id="sec-1">
+        <div class="flex-five content-1">
+            <p class="h1-text">Welcome to <span style="color: royalblue;">Blogs</span></p>
+            <p class="h2-text">I am a <span class="auto-type" style="color: royalblue; font-weight: 500px;"></span></p>
+            <p class="about-me-det">Welcome to my blog. I'm a passionate web developer. In this website
+                you can know about me and my stories about various things what i love to do. Also you can learn coding
+                from this website. This website is still constructing, so some of the functions might not work properly.
+            </p>
+        </div>
+        <div class="flex-five content-2">
+            <img src="images/pf.jpg" alt="">
+        </div>
+    </section>
+    <section id="sec-2">
+        <span class="header">About Me</span>
+
+        <p id="about-me-details">Just an simple person from Bangladesh who is passionate about <br> coding and builing
+            web applications. Currently learning <span class="color-or">HTML</span>, <br> <span
+                class="color-or">CSS</span>, <span class="color-or">Javascript</span> with a intend to learn <span
+                class="color-or">MERN stack</span> in future. <br> I have completed my <span class="color-or">SSC</span>
+            from <span class="color-m">CMP School & College</span> and now i am pursuing <br> my <span
+                class="color-or">HSC</span> degree from <span class="color-m">Islamia Degree College</span>.</p>
+    </section>
+    <section id="sec-3" class="margin-t">
+        <span class="header">Links</span>
+        <div id="links">
+            <a target="_blank" href="#">[<span class="color-matcha">Website</span>][https://www.himaddrisblog.com]</a>
+            <a target="_blank" href="https://github.com/Himaddri">[<span
+                    class="color-matcha">Github</span>][https://github.com/Himaddri]</a>
+            <a target="_blank" href="mailto:himaddri1024@gmail.com">[<span
+                    class="color-matcha">Email</span>][mailto:himaddri1024@gmail.com]</a>
+            <a target="_blank" href="https://www.twitter.com/Himu8649">[<span
+                    class="color-matcha">Twitter</span>][https://www.twitter.com/Himu8649]</a>
+            <a target="_blank" href="https://instagram.com/himaddrimutsuddi?igshid=NzZlODBkYWE4Ng==">[<span
+                    class="color-matcha">Instagram</span>][https://www.instagram.com/himaddrimutsuddi]</a>
+            <a target="_blank" href="https://www.facebook.com/himaddri.orka">[<span
+                    class="color-matcha">Facebook</span>][https://www.facebook.com/himaddri.orka]</a>
+            <a target="_blank" href="https://www.linkedin.com/in/himaddrimutsuddi">[<span
+                    class="color-matcha">LinkedIn</span>][https://www.linkedin.com/in/himaddrimutsuddi]</a>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>Built with &hearts; by</p>
+        <p>&copy; Himaddri Mutsuddi Orka</p>
+    </footer>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ['Front-End Developer', 'Back-End Developer', 'Mern Stack Developer', 'Developer', 'Student'],
+            typeSpeed: 50,
+            backSpeed: 70,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>

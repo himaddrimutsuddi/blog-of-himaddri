@@ -1,0 +1,36 @@
+#login {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    font-family: 'Poppins';
+}
+.email-id {
+    padding: 8px;
+    font-size: 16px;
+    margin: 8px;
+    font-family: 'Poppins';
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+.pass {
+    font-family: 'Poppins';
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+#login-button {
+    padding: 12px 20px;
+    font-family: 'Poppins';
+    background-color: royalblue;
+    color: white;
+    border: none;
+    margin-bottom: 4px;
+}
+span a {
+    color: royalblue;
+}
